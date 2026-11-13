@@ -1,0 +1,28 @@
+# Robots.txt for 吹雪云官网 (https://chuixueyun.top/)
+# Allow all search engine crawlers
+
+User-agent: *
+Allow: /
+Allow: /articles/
+Allow: /assets/
+Allow: /style.css
+Allow: /main.js
+
+# Major Search Engine Directives
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: Sogouspider
+Allow: /
+
+# Sitemap Location
+Sitemap: https://chuixueyun.top/sitemap.xml
