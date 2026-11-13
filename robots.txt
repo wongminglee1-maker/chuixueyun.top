@@ -3,25 +3,27 @@
 
 User-agent: *
 Allow: /
+Allow: /about/
+Allow: /pricing/
+Allow: /advantages/
 Allow: /articles/
+Allow: /reviews/
+Allow: /faq/
 Allow: /assets/
 Allow: /style.css
 Allow: /main.js
 
-# Major Search Engine Directives
-User-agent: Googlebot
+# Major Search Engine Directives (Bing, Google, Applebot, Baidu)
+User-agent: Bingbot
 Allow: /
 
-User-agent: Bingbot
+User-agent: Googlebot
 Allow: /
 
 User-agent: Applebot
 Allow: /
 
 User-agent: Baiduspider
-Allow: /
-
-User-agent: Sogouspider
 Allow: /
 
 # Sitemap Location

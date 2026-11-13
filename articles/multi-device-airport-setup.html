@@ -57,16 +57,17 @@
   <!-- Site Header -->
   <header class="site-header">
     <div class="container header-inner">
-      <a href="../index.html" class="brand-link" title="吹雪云官网首页">
+      <a href="/" class="brand-link" title="吹雪云官网首页">
         <img src="../assets/logo.svg" alt="吹雪云官网LOGO" class="brand-logo-img">
       </a>
       <ul class="nav-menu" id="navMenu">
-        <li><a href="../index.html" class="nav-link">官网首页</a></li>
-        <li><a href="../index.html#pricing" class="nav-link">套餐价格 (¥2起)</a></li>
-        <li><a href="../index.html#features" class="nav-link">核心优势</a></li>
-        <li><a href="../index.html#about" class="nav-link">关于吹雪云</a></li>
-        <li><a href="../index.html#articles" class="nav-link active">技术专栏</a></li>
-        <li><a href="../index.html#faq" class="nav-link">常见问题</a></li>
+        <li><a href="/" class="nav-link">首页</a></li>
+        <li><a href="/about/" class="nav-link">关于吹雪云</a></li>
+        <li><a href="/pricing/" class="nav-link">套餐价格（¥2起）</a></li>
+        <li><a href="/advantages/" class="nav-link">核心优势</a></li>
+        <li><a href="/articles/" class="nav-link active">技术专栏（6篇精选）</a></li>
+        <li><a href="/reviews/" class="nav-link">用户评价</a></li>
+        <li><a href="/faq/" class="nav-link">常见问题</a></li>
       </ul>
       <div class="header-actions">
         <a href="https://varnexa.lingdongaff.com/#/?code=HHoxxHGa" target="_blank" rel="noopener nofollow" class="btn btn-primary">
@@ -83,12 +84,18 @@
   <div class="article-header">
     <div class="container container-narrow">
       <nav class="breadcrumbs" aria-label="面包屑导航">
-        <a href="../index.html">吹雪云官网</a>
+        <a href="/">吹雪云官网</a>
         <span>/</span>
-        <a href="../index.html#articles">技术专栏</a>
+        <a href="/articles/">技术专栏（6篇精选）</a>
         <span>/</span>
         <span style="color: var(--primary);">多设备使用机场</span>
       </nav>
+      <div style="margin: 0.8rem 0 1.25rem;">
+        <a href="/articles/" class="btn btn-secondary" style="font-size: 0.85rem; padding: 0.35rem 0.85rem; display: inline-flex; align-items: center; gap: 0.4rem;">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+          ← 返回专栏列表
+        </a>
+      </div>
       <h1 class="article-title">多设备使用机场完整指南：电脑/手机/软路由全场景配置与无并发限制方案</h1>
       <div class="article-meta-row">
         <div class="article-meta-item">
@@ -121,7 +128,7 @@
         </ol>
 
         <div class="article-callout">
-          <strong>吹雪云极简理念：</strong> <a href="../index.html"><strong>吹雪云机场</strong></a>秉持“让网络体验更轻松”的初心，全系列套餐<strong>均不限制设备同时连接数</strong>！无论您是个人拥有多台设备，还是与家人朋友共享，只要流量充足即可随时随地畅快连接。
+          <strong>吹雪云极简理念：</strong> <a href="/"><strong>吹雪云机场</strong></a>秉持“让网络体验更轻松”的初心，全系列套餐<strong>均不限制设备同时连接数</strong>！无论您是个人拥有多台设备，还是与家人朋友共享，只要流量充足即可随时随地畅快连接。
         </div>
 
         <h2>二、全平台主流客户端最佳推荐矩阵</h2>
@@ -175,7 +182,7 @@
         <h2>三、家庭与办公室多设备共享实战方案</h2>
 
         <h3>方案 A：单机复制订阅链接（适合分散设备）</h3>
-        <p>在 <a href="../index.html">吹雪云官网</a> 个人中心一键复制“通用订阅链接”，在所有手机、电脑的客户端中分别粘贴导入。由于吹雪云不限制在线客户端数量，您无需担心冲突被封。</p>
+        <p>在 <a href="/">吹雪云官网</a> 个人中心一键复制“通用订阅链接”，在所有手机、电脑的客户端中分别粘贴导入。由于吹雪云不限制在线客户端数量，您无需担心冲突被封。</p>
 
         <h3>方案 B：利用局域网共享代理（Allow LAN）</h3>
         <p>如果您在办公室或宿舍有一台长期开机的 Windows 电脑或 Mac，可以无需在其他每台设备上安装翻墙工具：</p>
@@ -190,7 +197,7 @@
         <ul>
           <li>在软路由（如工控机 OpenWrt、GL.iNet 路由器）中安装 <strong>OpenClash</strong>。</li>
           <li>将吹雪云订阅链接填入，模式选择“Fake-IP 混合模式”或“TUN 模式”。</li>
-          <li>此时所有连接家庭 Wi-Fi 的设备，均无需安装任何软件或配置代理，天生具备全球高速访问能力，且完美兼顾国内直连。若遇到 DNS 异常，可参考：<a href="dns-leak-prevention.html">《机场DNS泄露解决指南》</a>。</li>
+          <li>此时所有连接家庭 Wi-Fi 的设备，均无需安装任何软件或配置代理，天生具备全球高速访问能力，且完美兼顾国内直连。若遇到 DNS 异常，可参考：<a href="/articles/dns-leak-prevention.html">《机场DNS泄露解决指南》</a>。</li>
         </ul>
 
         <h2>四、为什么吹雪云（chuixueyun.top）是多设备党的最佳选择？</h2>
@@ -254,10 +261,10 @@
 
         <p>如需排查偶发的网络卡顿或了解各节点测速详情，请参阅：</p>
         <ul>
-          <li><a href="airport-connection-troubleshooting.html">《机场连接失败怎么办？排障全攻略》</a></li>
-          <li><a href="claude-ai-airport-guide.html">《Claude AI机场推荐与防封配置》</a></li>
-          <li><a href="airport-review-2026.html">《2026年高质量性价比机场测评》</a></li>
-          <li><a href="best-vpn-recommendation-2026.html">《VPN推荐2026：传统VPN与新一代加速协议对比》</a></li>
+          <li><a href="/articles/airport-connection-troubleshooting.html">《机场连接失败怎么办？排障全攻略》</a></li>
+          <li><a href="/articles/claude-ai-airport-guide.html">《Claude AI机场推荐与防封配置》</a></li>
+          <li><a href="/articles/airport-review-2026.html">《2026年高质量性价比机场测评》</a></li>
+          <li><a href="/articles/best-vpn-recommendation-2026.html">《VPN推荐2026：传统VPN与新一代加速协议对比》</a></li>
         </ul>
 
         <div style="margin-top: 2.5rem; text-align: center;">
@@ -291,27 +298,27 @@
           </h3>
           <ul class="related-articles-list">
             <li>
-              <a href="dns-leak-prevention.html" class="related-article-link">
+              <a href="/articles/dns-leak-prevention.html" class="related-article-link">
                 • 机场DNS泄露解决：原理排查与防泄露实操
               </a>
             </li>
             <li>
-              <a href="airport-connection-troubleshooting.html" class="related-article-link">
+              <a href="/articles/airport-connection-troubleshooting.html" class="related-article-link">
                 • 机场连接失败怎么办？排错全攻略
               </a>
             </li>
             <li>
-              <a href="claude-ai-airport-guide.html" class="related-article-link">
+              <a href="/articles/claude-ai-airport-guide.html" class="related-article-link">
                 • Claude AI机场推荐与防封设置技巧
               </a>
             </li>
             <li>
-              <a href="airport-review-2026.html" class="related-article-link">
+              <a href="/articles/airport-review-2026.html" class="related-article-link">
                 • 2026年高质量性价比机场测评
               </a>
             </li>
             <li>
-              <a href="best-vpn-recommendation-2026.html" class="related-article-link">
+              <a href="/articles/best-vpn-recommendation-2026.html" class="related-article-link">
                 • VPN推荐2026：传统VPN与机场协议选购
               </a>
             </li>
@@ -332,19 +339,22 @@
         <div class="footer-col">
           <h4>快速导航</h4>
           <ul class="footer-links">
-            <li><a href="../index.html">吹雪云官网</a></li>
-            <li><a href="../index.html#pricing">套餐价格表</a></li>
-            <li><a href="../index.html#features">核心优势</a></li>
-            <li><a href="../index.html#about">关于品牌</a></li>
+            <li><a href="/">吹雪云首页</a></li>
+            <li><a href="/about/">关于吹雪云</a></li>
+            <li><a href="/pricing/">套餐价格表（¥2起）</a></li>
+            <li><a href="/advantages/">核心技术优势</a></li>
+            <li><a href="/articles/">技术专栏（6篇精选）</a></li>
+            <li><a href="/reviews/">用户真实评价</a></li>
+            <li><a href="/faq/">常见问题解答</a></li>
           </ul>
         </div>
         <div class="footer-col">
           <h4>技术专栏</h4>
           <ul class="footer-links">
-            <li><a href="dns-leak-prevention.html">机场DNS泄露解决</a></li>
-            <li><a href="airport-connection-troubleshooting.html">机场连接失败排查</a></li>
-            <li><a href="claude-ai-airport-guide.html">Claude AI专用节点</a></li>
-            <li><a href="airport-review-2026.html">2026机场全面测评</a></li>
+            <li><a href="/articles/dns-leak-prevention.html">机场DNS泄露解决</a></li>
+            <li><a href="/articles/airport-connection-troubleshooting.html">机场连接失败排查</a></li>
+            <li><a href="/articles/claude-ai-airport-guide.html">Claude AI专用节点</a></li>
+            <li><a href="/articles/airport-review-2026.html">2026机场全面测评</a></li>
           </ul>
         </div>
         <div class="footer-col">
@@ -360,7 +370,7 @@
       </div>
       <div class="footer-bottom">
         <p>&copy; 2026 吹雪云 (chuixueyun.top). 保留所有权利。日系极简 · 畅行云间</p>
-        <p><a href="../sitemap.xml">XML网站地图</a> | <a href="../robots.txt">Robots.txt</a></p>
+        <p><a href="/sitemap.xml">XML网站地图</a> | <a href="/robots.txt">Robots.txt</a></p>
       </div>
     </div>
   </footer>

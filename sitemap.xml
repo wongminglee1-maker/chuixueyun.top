@@ -4,7 +4,7 @@
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   
-  <!-- 吹雪云官网首页 -->
+  <!-- 1. 首页 -->
   <url>
     <loc>https://chuixueyun.top/</loc>
     <lastmod>2026-03-15T12:00:00+08:00</lastmod>
@@ -12,7 +12,55 @@
     <priority>1.0</priority>
   </url>
 
-  <!-- 文章 1: 机场DNS泄露解决 -->
+  <!-- 2. 关于吹雪云 -->
+  <url>
+    <loc>https://chuixueyun.top/about/</loc>
+    <lastmod>2026-03-15T12:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- 3. 套餐价格（¥2起） -->
+  <url>
+    <loc>https://chuixueyun.top/pricing/</loc>
+    <lastmod>2026-03-15T12:00:00+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <!-- 4. 核心优势 -->
+  <url>
+    <loc>https://chuixueyun.top/advantages/</loc>
+    <lastmod>2026-03-15T12:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- 5. 技术专栏（6篇精选） -->
+  <url>
+    <loc>https://chuixueyun.top/articles/</loc>
+    <lastmod>2026-03-15T12:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- 6. 用户评价 -->
+  <url>
+    <loc>https://chuixueyun.top/reviews/</loc>
+    <lastmod>2026-03-15T12:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- 7. 常见问题 -->
+  <url>
+    <loc>https://chuixueyun.top/faq/</loc>
+    <lastmod>2026-03-15T12:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- 8. 文章 1: 机场DNS泄露解决 -->
   <url>
     <loc>https://chuixueyun.top/articles/dns-leak-prevention.html</loc>
     <lastmod>2026-03-15T12:00:00+08:00</lastmod>
@@ -20,7 +68,7 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- 文章 2: 机场连接失败怎么办 -->
+  <!-- 9. 文章 2: 机场连接失败怎么办 -->
   <url>
     <loc>https://chuixueyun.top/articles/airport-connection-troubleshooting.html</loc>
     <lastmod>2026-03-15T12:00:00+08:00</lastmod>
@@ -28,7 +76,7 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- 文章 3: Claude AI机场 -->
+  <!-- 10. 文章 3: Claude AI机场 -->
   <url>
     <loc>https://chuixueyun.top/articles/claude-ai-airport-guide.html</loc>
     <lastmod>2026-03-15T12:00:00+08:00</lastmod>
@@ -36,7 +84,7 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- 文章 4: 多设备使用机场 -->
+  <!-- 11. 文章 4: 多设备使用机场 -->
   <url>
     <loc>https://chuixueyun.top/articles/multi-device-airport-setup.html</loc>
     <lastmod>2026-03-15T12:00:00+08:00</lastmod>
@@ -44,7 +92,7 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- 文章 5: 机场测评 -->
+  <!-- 12. 文章 5: 机场测评 -->
   <url>
     <loc>https://chuixueyun.top/articles/airport-review-2026.html</loc>
     <lastmod>2026-03-15T12:00:00+08:00</lastmod>
@@ -52,7 +100,7 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- 文章 6: VPN推荐2026 -->
+  <!-- 13. 文章 6: VPN推荐2026 -->
   <url>
     <loc>https://chuixueyun.top/articles/best-vpn-recommendation-2026.html</loc>
     <lastmod>2026-03-15T12:00:00+08:00</lastmod>

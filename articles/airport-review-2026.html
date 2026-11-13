@@ -57,16 +57,17 @@
   <!-- Site Header -->
   <header class="site-header">
     <div class="container header-inner">
-      <a href="../index.html" class="brand-link" title="吹雪云官网首页">
+      <a href="/" class="brand-link" title="吹雪云官网首页">
         <img src="../assets/logo.svg" alt="吹雪云官网LOGO" class="brand-logo-img">
       </a>
       <ul class="nav-menu" id="navMenu">
-        <li><a href="../index.html" class="nav-link">官网首页</a></li>
-        <li><a href="../index.html#pricing" class="nav-link">套餐价格 (¥2起)</a></li>
-        <li><a href="../index.html#features" class="nav-link">核心优势</a></li>
-        <li><a href="../index.html#about" class="nav-link">关于吹雪云</a></li>
-        <li><a href="../index.html#articles" class="nav-link active">技术专栏</a></li>
-        <li><a href="../index.html#faq" class="nav-link">常见问题</a></li>
+        <li><a href="/" class="nav-link">首页</a></li>
+        <li><a href="/about/" class="nav-link">关于吹雪云</a></li>
+        <li><a href="/pricing/" class="nav-link">套餐价格（¥2起）</a></li>
+        <li><a href="/advantages/" class="nav-link">核心优势</a></li>
+        <li><a href="/articles/" class="nav-link active">技术专栏（6篇精选）</a></li>
+        <li><a href="/reviews/" class="nav-link">用户评价</a></li>
+        <li><a href="/faq/" class="nav-link">常见问题</a></li>
       </ul>
       <div class="header-actions">
         <a href="https://varnexa.lingdongaff.com/#/?code=HHoxxHGa" target="_blank" rel="noopener nofollow" class="btn btn-primary">
@@ -83,12 +84,18 @@
   <div class="article-header">
     <div class="container container-narrow">
       <nav class="breadcrumbs" aria-label="面包屑导航">
-        <a href="../index.html">吹雪云官网</a>
+        <a href="/">吹雪云官网</a>
         <span>/</span>
-        <a href="../index.html#articles">技术专栏</a>
+        <a href="/articles/">技术专栏（6篇精选）</a>
         <span>/</span>
         <span style="color: var(--primary);">机场测评</span>
       </nav>
+      <div style="margin: 0.8rem 0 1.25rem;">
+        <a href="/articles/" class="btn btn-secondary" style="font-size: 0.85rem; padding: 0.35rem 0.85rem; display: inline-flex; align-items: center; gap: 0.4rem;">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+          ← 返回专栏列表
+        </a>
+      </div>
       <h1 class="article-title">2026年高质量性价比机场测评：吹雪云速度、延迟、流媒体与Claude深度实测</h1>
       <div class="article-meta-row">
         <div class="article-meta-item">
@@ -118,7 +125,7 @@
         <ul>
           <li><strong>节点覆盖范围：</strong> 核心覆盖中国香港、日本东京/大阪、新加坡、美国洛杉矶/圣何塞、中国台湾等骨干枢纽，并持续扩容韩国与欧洲备用节点。</li>
           <li><strong>全平台协议支持：</strong> 完美兼容 Shadowsocks、VMess、VLESS Reality 及现代轻量协议，适配 Clash Verge Rev、Mihomo、Sing-box、Shadowrocket 等主流客户端。</li>
-          <li><strong>无并发设备数限制：</strong> 用户可在一套订阅下同时在电脑、手机、平板与软路由中同步使用（详见：<a href="multi-device-airport-setup.html">《多设备使用机场完整指南》</a>）。</li>
+          <li><strong>无并发设备数限制：</strong> 用户可在一套订阅下同时在电脑、手机、平板与软路由中同步使用（详见：<a href="/articles/multi-device-airport-setup.html">《多设备使用机场完整指南》</a>）。</li>
         </ul>
 
         <h2>二、测速跑分实测：千兆宽带吞吐与 8K 秒开</h2>
@@ -181,14 +188,14 @@
         <p>很多机场虽然下行速度很快，但由于 IP 池严重污染，流媒体只能看自制剧，访问 AI 平台更是频频 403。我们在本次<strong>机场测评</strong>中对全球热门服务进行了逐项实地验证：</p>
 
         <ul>
-          <li><strong>Claude 3.5 Sonnet / Opus 解锁：</strong> <span style="color: #10B981; font-weight: 700;">★全绿通畅★</span>。通过专用美国及日本纯净节点，无需额外打补丁，一次性成功登录 Web 端及 API，且连续数周高强度生成代码未触发风控限制（相关设置技巧详见：<a href="claude-ai-airport-guide.html">《Claude AI机场推荐与防封攻略》</a>）。</li>
+          <li><strong>Claude 3.5 Sonnet / Opus 解锁：</strong> <span style="color: #10B981; font-weight: 700;">★全绿通畅★</span>。通过专用美国及日本纯净节点，无需额外打补丁，一次性成功登录 Web 端及 API，且连续数周高强度生成代码未触发风控限制（相关设置技巧详见：<a href="/articles/claude-ai-airport-guide.html">《Claude AI机场推荐与防封攻略》</a>）。</li>
           <li><strong>Netflix (网飞) 原生解锁：</strong> 香港、日本、台湾、新加坡、美国节点均可完整识别本地版权片库，支持 4K HDR 及杜比视界高码率原盘流式传输。</li>
           <li><strong>Disney+ / YouTube Premium / Spotify：</strong> 全部顺利解锁，支持无跨区报错顺畅播放。</li>
-          <li><strong>DNS 防泄露测试：</strong> 在 dnsleaktest.com 进行 6 次扩展测试，测试结果中<strong>未出现任何中国大陆运营商 DNS 泄露</strong>（了解原理详见：<a href="dns-leak-prevention.html">《机场DNS泄露解决指南》</a>）。</li>
+          <li><strong>DNS 防泄露测试：</strong> 在 dnsleaktest.com 进行 6 次扩展测试，测试结果中<strong>未出现任何中国大陆运营商 DNS 泄露</strong>（了解原理详见：<a href="/articles/dns-leak-prevention.html">《机场DNS泄露解决指南》</a>）。</li>
         </ul>
 
         <h2>四、价格体系与性价比横评：行业“价格屠夫”</h2>
-        <p>在所有参与测评的机场中，<a href="../index.html"><strong>吹雪云官网</strong></a>所公布的资费方案无疑最具杀伤力。我们将其与行业主流水准进行了直接横向对比：</p>
+        <p>在所有参与测评的机场中，<a href="/"><strong>吹雪云官网</strong></a>所公布的资费方案无疑最具杀伤力。我们将其与行业主流水准进行了直接横向对比：</p>
 
         <div class="article-table-wrapper">
           <table class="article-table">
@@ -253,7 +260,7 @@
           <li><strong>小型工作室/跨境电商：</strong> 选择【雪岭套餐 ¥20/月 5TB】或【雪域套餐 ¥30/月 10TB】，多设备不限并发，全员共享。</li>
         </ol>
 
-        <p>若需对比传统商用 VPN 与机场协议的深层机制，欢迎查阅：<a href="best-vpn-recommendation-2026.html">《VPN推荐2026：传统VPN与新一代加速协议对比指南》</a>。</p>
+        <p>若需对比传统商用 VPN 与机场协议的深层机制，欢迎查阅：<a href="/articles/best-vpn-recommendation-2026.html">《VPN推荐2026：传统VPN与新一代加速协议对比指南》</a>。</p>
 
         <div style="margin-top: 2.5rem; text-align: center;">
           <a href="https://varnexa.lingdongaff.com/#/?code=HHoxxHGa" target="_blank" rel="noopener nofollow" class="btn btn-accent btn-lg">
@@ -286,27 +293,27 @@
           </h3>
           <ul class="related-articles-list">
             <li>
-              <a href="dns-leak-prevention.html" class="related-article-link">
+              <a href="/articles/dns-leak-prevention.html" class="related-article-link">
                 • 机场DNS泄露解决：原理排查与防泄露实操
               </a>
             </li>
             <li>
-              <a href="airport-connection-troubleshooting.html" class="related-article-link">
+              <a href="/articles/airport-connection-troubleshooting.html" class="related-article-link">
                 • 机场连接失败怎么办？排错全攻略
               </a>
             </li>
             <li>
-              <a href="claude-ai-airport-guide.html" class="related-article-link">
+              <a href="/articles/claude-ai-airport-guide.html" class="related-article-link">
                 • Claude AI机场推荐与防封设置技巧
               </a>
             </li>
             <li>
-              <a href="multi-device-airport-setup.html" class="related-article-link">
+              <a href="/articles/multi-device-airport-setup.html" class="related-article-link">
                 • 多设备使用机场完整配置方案
               </a>
             </li>
             <li>
-              <a href="best-vpn-recommendation-2026.html" class="related-article-link">
+              <a href="/articles/best-vpn-recommendation-2026.html" class="related-article-link">
                 • VPN推荐2026：传统VPN与机场协议选购
               </a>
             </li>
@@ -327,19 +334,22 @@
         <div class="footer-col">
           <h4>快速导航</h4>
           <ul class="footer-links">
-            <li><a href="../index.html">吹雪云官网</a></li>
-            <li><a href="../index.html#pricing">套餐价格表</a></li>
-            <li><a href="../index.html#features">核心优势</a></li>
-            <li><a href="../index.html#about">关于品牌</a></li>
+            <li><a href="/">吹雪云首页</a></li>
+            <li><a href="/about/">关于吹雪云</a></li>
+            <li><a href="/pricing/">套餐价格表（¥2起）</a></li>
+            <li><a href="/advantages/">核心技术优势</a></li>
+            <li><a href="/articles/">技术专栏（6篇精选）</a></li>
+            <li><a href="/reviews/">用户真实评价</a></li>
+            <li><a href="/faq/">常见问题解答</a></li>
           </ul>
         </div>
         <div class="footer-col">
           <h4>技术专栏</h4>
           <ul class="footer-links">
-            <li><a href="dns-leak-prevention.html">机场DNS泄露解决</a></li>
-            <li><a href="airport-connection-troubleshooting.html">机场连接失败排查</a></li>
-            <li><a href="claude-ai-airport-guide.html">Claude AI专用节点</a></li>
-            <li><a href="airport-review-2026.html">2026机场全面测评</a></li>
+            <li><a href="/articles/dns-leak-prevention.html">机场DNS泄露解决</a></li>
+            <li><a href="/articles/airport-connection-troubleshooting.html">机场连接失败排查</a></li>
+            <li><a href="/articles/claude-ai-airport-guide.html">Claude AI专用节点</a></li>
+            <li><a href="/articles/airport-review-2026.html">2026机场全面测评</a></li>
           </ul>
         </div>
         <div class="footer-col">
@@ -355,7 +365,7 @@
       </div>
       <div class="footer-bottom">
         <p>&copy; 2026 吹雪云 (chuixueyun.top). 保留所有权利。日系极简 · 畅行云间</p>
-        <p><a href="../sitemap.xml">XML网站地图</a> | <a href="../robots.txt">Robots.txt</a></p>
+        <p><a href="/sitemap.xml">XML网站地图</a> | <a href="/robots.txt">Robots.txt</a></p>
       </div>
     </div>
   </footer>
